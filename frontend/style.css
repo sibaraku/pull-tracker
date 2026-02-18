@@ -1,0 +1,219 @@
+:root {
+    --bg-color: #FFF6F6;
+    --card-bg: #ede7f6;
+    --accent-purple: #D5C6F3;
+    --text-color: #333;
+    --rarity-3: #90d8e9;
+    --rarity-4: #d1c4e9;
+    --rarity-5: #e6ce9d;
+    --rarity-5-dark: #ddbb7a;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 { font-size: 2.5rem; margin-bottom: 20px; }
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.tab {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 10px;
+    background: var(--accent-purple);
+    cursor: pointer;
+    font-weight: bold;
+    opacity: 0.6;
+}
+
+.tab.active { opacity: 1; }
+
+/* Grid Layout */
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+
+h3 { font-size: 0.9rem; margin-bottom: 10px; margin-top: 0; }
+
+.stats-card, .history-card, .add-pull-card {
+    background: transparent;
+}
+
+.card-content, .history-list, .add-pull-card {
+    background: var(--card-bg);
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+/* History Styles */
+.history-list {
+    height: 160px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pull-item {
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Add Pull Form */
+.add-pull-card {
+    grid-column: span 2;
+}
+
+.rarity-selector, .win-loss-selector {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.btn-rarity, .btn-outcome {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    flex: 1;
+}
+
+.blue { background-color: var(--rarity-3); }
+.purple { background-color: var(--rarity-4); }
+.gold { background-color: var(--rarity-5); }
+.active-gold { background-color: var(--rarity-5-dark); border: 2px solid #b5955a; }
+
+.character-list-box {
+    background: #d9d9d9;
+    height: 100px;
+    margin: 10px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 5px;
+}
+
+.btn-add {
+    float: right;
+    padding: 12px 40px;
+    background: var(--accent-purple);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Hide the actual radio circle */
+.radio-input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* Base style for the labels (our "buttons") */
+.radio-label {
+    display: inline-block;
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 2px solid transparent; /* Keeps layout stable when border appears */
+}
+
+/* Specific Rarity Colors */
+.blue { background-color: #90d8e9; }
+.purple { background-color: #d1c4e9; }
+.gold { background-color: #e6ce9d; }
+
+/* General selection behavior */
+.radio-input:checked + .radio-label {
+    transform: translateY(-0.5px); /* Slightly more lift for the "glow" effect */
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* 3 Star Blue Glow */
+.radio-input:checked + .radio-label.blue {
+    border-color: #5fbcd3;
+}
+
+/* 4 Star Purple Glow */
+.radio-input:checked + .radio-label.purple {
+    border-color: #9575cd;
+}
+
+/* 5 Star Golden Glow */
+.radio-input:checked + .radio-label.gold {
+    border-color: #c5a059;
+}
+
+/* Hover effect for better UX */
+.radio-label:hover {
+    filter: brightness(0.95);
+}
+
+/* Base style for Win/Loss specifically (if different from rarity) */
+.outcome-btn {
+    background-color: var(--rarity-5); /* Defaulting to the gold/tan color from Figma */
+}
+
+/* Win/Loss Glow Effects */
+
+/* WIN - Golden Glow */
+.radio-input:checked + .radio-label.gold {
+    box-shadow: 0 0 15px 2px rgba(230, 206, 157, 0.8);
+    border-color: rgba(0, 0, 0, 0.3);
+    background-color: #E2BE6C;
+}
+
+/* LOSS - Standard/Muted Glow (or change to Red) */
+.radio-input:checked + .outcome-btn:not(.gold) {
+    box-shadow: 0 0 12px 1px rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.3);
+    background-color: #E2BE6C;
+}
+
+.radio-input:checked + .radio-label.blue {
+    box-shadow: 0 0 15px 2px rgba(144, 216, 233, 0.8);
+    border-color: #5fbcd3;
+}
+
+.radio-input:checked + .radio-label.purple {
+    box-shadow: 0 0 15px 2px rgba(209, 196, 233, 0.8);
+    border-color: #9575cd;
+}
+
+#outcome-win {
+    background: #333;
+}

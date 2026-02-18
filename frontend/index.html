@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pull Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Pull Tracker</h1>
+            <div class="tabs">
+                <button class="tab active">Genshin</button>
+                <button class="tab">Honkai Star Rail</button>
+            </div>
+        </header>
+
+        <main class="dashboard">
+            <section class="stats-card">
+                <h3>STATISTICS</h3>
+                <div class="card-content">
+                    <p>Total pulls: <strong>500</strong></p>
+                    <p>Total 5★: <strong>8</strong></p>
+                    <p>Current pull count: <strong>0</strong></p>
+                </div>
+            </section>
+
+            <section class="history-card">
+                <h3>PULL HISTORY</h3>
+                <div class="history-list">
+                    <div class="pull-item gold">500 - 5★: Raiden Shogun (WIN)</div>
+                    <div class="pull-item purple">499 - 4★: Bennett</div>
+                    <div class="pull-item blue">498 - 3★: Weapon Catalyst</div>
+                </div>
+            </section>
+
+            <section class="add-pull-card">
+                <h3>ADD PULL</h3>
+            <div class="rarity-selector">
+                <input type="radio" name="rarity" id="rarity-3" class="radio-input" value="3">
+                <label for="rarity-3" class="radio-label blue">3★</label>
+
+                <input type="radio" name="rarity" id="rarity-4" class="radio-input" value="4">
+                <label for="rarity-4" class="radio-label purple">4★</label>
+
+                <input type="radio" name="rarity" id="rarity-5" class="radio-input" value="5" checked>
+                <label for="rarity-5" class="radio-label gold">5★</label>
+            </div>
+
+        <div class="win-loss-selector">
+            <input type="radio" name="outcome" id="outcome-loss" class="radio-input" value="loss">
+            <label for="outcome-loss" class="radio-label outcome-btn">LOSS</label>
+
+            <input type="radio" name="outcome" id="outcome-win" class="radio-input" value="win" checked>
+            <label for="outcome-win" class="radio-label outcome-btn gold">WIN</label>
+        </div>
+
+                <label>Select 5★ character:</label>
+                <div class="character-list-box">
+                    *list of characters*
+                </div>
+
+                <button class="btn-add">ADD PULL</button>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
