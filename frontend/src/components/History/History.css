@@ -1,0 +1,39 @@
+/* HISTORY LIST */
+.history-list {
+  height: 160px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+
+  background: var(--card-bg);
+  border-radius: 15px;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.pull-item {
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+/* RARITY COLORS */
+.blue {
+  background-color: var(--rarity-3);
+}
+
+.purple {
+  background-color: var(--rarity-4);
+}
+
+.gold {
+  background-color: var(--rarity-5);
+}
+
+/* CARDS*/
+.history-card {
+  background: transparent;
+}

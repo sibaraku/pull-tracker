@@ -1,0 +1,34 @@
+/* ROOT VARIABLES*/
+:root {
+  --bg-color: #fff6f6;       /* Body background color */
+  --card-bg: #ede7f6;        /* Card background color */
+  --accent-purple: #d5c6f3;  /* Accent color for tabs/buttons */
+  --text-color: #333;        /* Default text color */
+  --rarity-3: #90d8e9;       /* 3* pull color */
+  --rarity-4: #d1c4e9;       /* 4* pull color */
+  --rarity-5: #e6ce9d;       /* 5* pull color */
+  --rarity-5-dark: #ddbb7a;  /* Highlighted 5â˜… color */
+}
+
+/* BODY & CONTAINER */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px; 
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* DASHBOARD GRID*/
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+}
