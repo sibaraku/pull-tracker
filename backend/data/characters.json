@@ -1,0 +1,201 @@
+[
+
+    {
+
+        "name": "Diluc",
+        "slug": "diluc",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e7/Diluc_Card.png/revision/latest/scale-to-width-down/1000?cb=20220725204921"
+
+    },
+
+    {
+        "name": "Jean",
+        "slug": "jean",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/a8/Jean_Card.png/revision/latest?cb=20220725210053"
+
+    },
+    {
+        "name": "Qiqi",
+        "slug": "qiqi",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/03/Qiqi_Card.png/revision/latest?cb=20220725205124"
+    },
+
+    {
+        "name": "Skirk",
+        "slug": "skirk",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/35/Skirk_Card.png/revision/latest?cb=20250513040246"
+
+    },
+
+    {
+        "name": "Keqing",
+        "slug": "keqing",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Keqing_Card.png/revision/latest?cb=20220725205019"
+    },
+
+    {
+        "name": "Dehya",
+        "slug": "dehya",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/de/Dehya_Card.png/revision/latest?cb=20230116100745"
+    },
+
+    {
+        "name": "Mona",
+        "slug": "mona",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9f/Mona_Card.png/revision/latest?cb=20220725210059"
+    },
+
+    {
+        "name": "Tighnari",
+        "slug": "tighnari",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/5c/Tighnari_Card.png/revision/latest?cb=20220711041536"
+    },
+
+    {
+        "name": "Childe",
+        "slug": "childe",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/3c/Tartaglia_Card.png/revision/latest?cb=20231114211512"
+    },
+
+    {
+        "name": "Arlecchino",
+        "slug": "arlecchino",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/ab/Arlecchino_Card.png/revision/latest?cb=20240311100101"
+    },
+
+    {
+        "name": "Flins",
+        "slug": "flins",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/6/64/Flins_Card.png/revision/latest?cb=20250805151240"
+    },
+
+    {
+        "name": "Varka",
+        "slug": "varka",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/e/e5/Varka_Card.png/revision/latest?cb=20260123040343"
+    },
+
+    {
+        "name": "Columbina",
+        "slug": "columbina",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/23/Columbina_Card.png/revision/latest?cb=20251210040329"
+    },
+
+    {
+        "name": "Lauma",
+        "slug": "lauma",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/d/d9/Lauma_Card.png/revision/latest?cb=20250805151400"
+    },
+
+    {
+        "name": "Zibai",
+        "slug": "zibai",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/f/fb/Zibai_Card.png/revision/latest?cb=20251211040212"
+    },
+
+    {
+        "name": "Ineffa",
+        "slug": "ineffa",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/3/39/Ineffa_Card.png/revision/latest?cb=20250623100844"
+    },
+
+    {
+        "name": "Nefer",
+        "slug": "nefer",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/9/9a/Nefer_Card.png/revision/latest?cb=20250912040519"
+    },
+
+    {
+        "name": "Furina",
+        "slug": "furina",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/2/27/Furina_Card.png/revision/latest?cb=20230925100151"
+    },
+
+    {
+        "name": "Xiao",
+        "slug": "xiao",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/7/7f/Xiao_Card.png/revision/latest?cb=20220725205230"
+    },
+
+    {
+        "name": "Bennett",
+        "slug": "bennett",
+        "rarity": "4",
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/c/c5/Bennett_Card.png/revision/latest?cb=20220725204904"
+    },
+
+    {
+        "name": "Xiangling",
+        "slug": "xiangling",
+        "rarity": "4",
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/a/aa/Xiangling_Card.png/revision/latest?cb=20220725205223"
+    },
+
+    {
+        "name": "Sucrose",
+        "slug": "sucrose",
+        "rarity": "4",
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/0/01/Sucrose_Card.png/revision/latest?cb=20220725205205"
+    },
+
+    {
+        "name": "Fischl",
+        "slug": "fischl",
+        "rarity": "4",
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/54/Fischl_Card.png/revision/latest?cb=20220725204926"
+    },
+
+    {
+        "name": "Barbara",
+        "slug": "barbara",
+        "rarity": "4",
+        "img": "https://static.wikia.nocookie.net/gensin-impact/images/5/54/Fischl_Card.png/revision/latest?cb=20220725204926"
+    },
+
+    {
+        "name": "",
+        "slug": "",
+        "rarity": "5",
+        "standard": false,
+        "img": ""
+    }
+
+]
