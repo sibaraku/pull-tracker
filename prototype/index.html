@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pull Tracker</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <!-- Main page title -->
+            <h1>Pull Tracker</h1>
+
+            <!-- Game selection tabs -->
+            <div class="tabs">
+                <button class="tab active">Genshin</button>
+                <button class="tab">Honkai Star Rail</button>
+            </div>
+        </header>
+
+        <main class="dashboard">
+            
+            <!-- Statistics section -->
+            <section class="stats-card">
+                <h3>STATISTICS</h3>
+                <div class="card-content">
+                    <!-- Total number of pulls -->
+                    <p>Total pulls: <strong id="total-pulls"></strong></p>
+                    
+                    <!-- Total number of 5-star pulls -->
+                    <p>Total 5★: <strong id="total-5star"></strong></p>
+                    
+                    <!-- Current pity count -->
+                    <p>Current pull count: <strong id="current-count"></strong></p>
+                </div>
+            </section>
+
+            <!-- Pull history section -->
+            <section class="history-card">
+                <h3>PULL HISTORY</h3>
+                <div class="history-list">
+                </div>
+            </section>
+
+            <!-- Add new pull section -->
+            <section class="add-pull-card">
+                
+                <!-- Button that opens rarity selection modal -->
+                <div class="character-add-pull-box" id="openModal">
+                    ADD NEW PULL
+                </div>
+
+            </section>
+
+            <!-- Rarity selection modal -->
+            <div class="modal" id="rarityModal">
+                <div class="modal-content center">
+                    
+                    <button class="close-btn" onclick="closeModal('rarityModal')">X</button>
+                    <h2>Select Rarity</h2>
+                    <div class="rarity-grid">
+                        <button id="rarity-3" class="radio-label blue" onclick="open3Star()">3★</button>
+                        <button id="rarity-4" class="radio-label purple" onclick="open4Star()">4★</button>
+                        <button id="rarity-5" class="radio-label gold" onclick="open5Star()">5★</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 50/50 outcome modal (for 5-star pulls) -->
+            <div class="modal" id="outcomeModal">
+                <div class="modal-content center">
+
+                    <button class="close-btn" onclick="closeModal('outcomeModal')">X</button>
+                    <h2>Did you win 50/50?</h2>
+
+                    <div class="rarity-grid">
+                        <button class="radio-label outcome-btn gold" onclick="openWin()">WIN</button>
+                        <button class="radio-label outcome-btn" onclick="openLoss()">LOSS</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Character/weapon selection modal -->
+            <div class="modal" id="listModal">
+                <div class="modal-content">
+                    <button class="close-btn" onclick="closeModal('listModal')">X</button>
+                    <h2 id="listTitle"></h2>
+                    <div id="listContainer" class="character-grid"></div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Main JS file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
