@@ -1,11 +1,610 @@
 [
-    {
-
-        "name": "Crimson Moon's Semblance",
-        "slug": "crimsonmoon",
-        "rarity": "5",
-        "standard": false,
-        "img": "https://static.wikia.nocookie.net/gensin-impact/images/8/82/Weapon_Crimson_Moon%27s_Semblance.png/revision/latest?cb=20240424233354"
-
-    }
+  {
+    "name": "Crimson Moon's Semblance",
+    "slug": "crimson-moons-semblance",
+    "type": "Polearm",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/crimson-moon-s-semblance/icon"
+  },
+  {
+    "name": "Staff of Homa",
+    "slug": "staff-of-homa",
+    "type": "Polearm",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/staff-of-homa/icon"
+  },
+  {
+    "name": "Engulfing Lightning",
+    "slug": "engulfing-lightning",
+    "type": "Polearm",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/engulfing-lightning/icon"
+  },
+  {
+    "name": "Primordial Jade Winged-Spear",
+    "slug": "primordial-jade-winged-spear",
+    "type": "Polearm",
+    "rarity": "5",
+    "standard": true,
+    "img": "https://genshin.jmp.blue/weapons/primordial-jade-winged-spear/icon"
+  },
+  {
+    "name": "Calamity Queller",
+    "slug": "calamity-queller",
+    "type": "Polearm",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/calamity-queller/icon"
+  },
+  {
+    "name": "Vortex Vanquisher",
+    "slug": "vortex-vanquisher",
+    "type": "Polearm",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/vortex-vanquisher/icon"
+  },
+  {
+    "name": "Staff of the Scarlet Sands",
+    "slug": "staff-of-the-scarlet-sands",
+    "type": "Polearm",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/staff-of-the-scarlet-sands/icon"
+  },
+  {
+    "name": "Skyward Spine",
+    "slug": "skyward-spine",
+    "type": "Polearm",
+    "rarity": "5",
+    "standard": true,
+    "img": "https://genshin.jmp.blue/weapons/skyward-spine/icon"
+  },
+  {
+    "name": "The Catch",
+    "slug": "the-catch",
+    "type": "Polearm",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/the-catch/icon"
+  },
+  {
+    "name": "Favonius Lance",
+    "slug": "favonius-lance",
+    "type": "Polearm",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/favonius-lance/icon"
+  },
+  {
+    "name": "Dragon's Bane",
+    "slug": "dragons-bane",
+    "type": "Polearm",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/dragons-bane/icon"
+  },
+  {
+    "name": "Deathmatch",
+    "slug": "deathmatch",
+    "type": "Polearm",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/deathmatch/icon"
+  },
+  {
+    "name": "Lithic Spear",
+    "slug": "lithic-spear",
+    "type": "Polearm",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/lithic-spear/icon"
+  },
+  {
+    "name": "Wavebreaker's Fin",
+    "slug": "wavebreakers-fin",
+    "type": "Polearm",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/wavebreakers-fin/icon"
+  },
+  {
+    "name": "Blackcliff Pole",
+    "slug": "blackcliff-pole",
+    "type": "Polearm",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/blackcliff-pole/icon"
+  },
+  {
+    "name": "Wolf's Gravestone",
+    "slug": "wolfs-gravestone",
+    "type": "Claymore",
+    "rarity": "5",
+    "standard": true, 
+    "img": "https://genshin.jmp.blue/weapons/wolfs-gravestone/icon"
+  },
+  {
+    "name": "Song of Broken Pines",
+    "slug": "song-of-broken-pines",
+    "type": "Claymore",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/song-of-broken-pines/icon"
+  },
+  {
+    "name": "The Unforged",
+    "slug": "the-unforged",
+    "type": "Claymore",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/the-unforged/icon"
+  },
+  {
+    "name": "Redhorn Stonethresher",
+    "slug": "redhorn-stonethresher",
+    "type": "Claymore",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/redhorn-stonethresher/icon"
+  },
+  {
+    "name": "Beacon of the Reed Sea",
+    "slug": "beacon-of-the-reed-sea",
+    "type": "Claymore",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/beacon-of-the-reed-sea/icon"
+  },
+  {
+    "name": "Skyward Pride",
+    "slug": "skyward-pride",
+    "type": "Claymore",
+    "rarity": "5",
+    "standard": true,
+    "img": "https://genshin.jmp.blue/weapons/skyward-pride/icon"
+  },
+  {
+    "name": "Favonius Greatsword",
+    "slug": "favonius-greatsword",
+    "type": "Claymore",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/favonius-greatsword/icon"
+  },
+  {
+    "name": "Sacrificial Greatsword",
+    "slug": "sacrificial-greatsword",
+    "type": "Claymore",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/sacrificial-greatsword/icon"
+  },
+  {
+    "name": "Blackcliff Slasher",
+    "slug": "blackcliff-slasher",
+    "type": "Claymore",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/blackcliff-slasher/icon"
+  },
+  {
+    "name": "Serpent Spine",
+    "slug": "serpent-spine",
+    "type": "Claymore",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/serpent-spine/icon"
+  },
+  {
+    "name": "Rainslasher",
+    "slug": "rainslasher",
+    "type": "Claymore",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/rainslasher/icon"
+  },
+  {
+    "name": "Lithic Blade",
+    "slug": "lithic-blade",
+    "type": "Claymore",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/lithic-blade/icon"
+  },
+  {
+    "name": "Aquila Favonia",
+    "slug": "aquila-favonia",
+    "type": "Sword",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/aquila-favonia/icon"
+  },
+  {
+    "name": "Mistsplitter Reforged",
+    "slug": "mistsplitter-reforged",
+    "type": "Sword",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/mistsplitter-reforged/icon"
+  },
+  {
+    "name": "Haran Geppaku Futsu",
+    "slug": "haran-geppaku-futsu",
+    "type": "Sword",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/haran-geppaku-futsu/icon"
+  },
+  {
+    "name": "Freedom-Sworn",
+    "slug": "freedom-sworn",
+    "type": "Sword",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/freedom-sworn/icon"
+  },
+  {
+    "name": "Primordial Jade Cutter",
+    "slug": "primordial-jade-cutter",
+    "type": "Sword",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/primordial-jade-cutter/icon"
+  },
+  {
+    "name": "Key of Khaj-Nisut",
+    "slug": "key-of-khaj-nisut",
+    "type": "Sword",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/key-of-khaj-nisut/icon"
+  },
+  {
+    "name": "Light of Foliar Incision",
+    "slug": "light-of-foliar-incision",
+    "type": "Sword",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/light-of-foliar-incision/icon"
+  },
+  {
+    "name": "Splendor of Tranquil Waters",
+    "slug": "splendor-of-tranquil-waters",
+    "type": "Sword",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/splendor-of-tranquil-waters/icon"
+  },
+  {
+    "name": "Skyward Blade",
+    "slug": "skyward-blade",
+    "type": "Sword",
+    "rarity": "5",
+    "standard": true,
+    "img": "https://genshin.jmp.blue/weapons/skyward-blade/icon"
+  },
+  {
+    "name": "Summit Shaper",
+    "slug": "summit-shaper",
+    "type": "Sword",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/summit-shaper/icon"
+  },
+  {
+    "name": "Favonius Sword",
+    "slug": "favonius-sword",
+    "type": "Sword",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/favonius-sword/icon"
+  },
+  {
+    "name": "Sacrificial Sword",
+    "slug": "sacrificial-sword",
+    "type": "Sword",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/sacrificial-sword/icon"
+  },
+  {
+    "name": "The Black Sword",
+    "slug": "the-black-sword",
+    "type": "Sword",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/the-black-sword/icon"
+  },
+  {
+    "name": "Iron Sting",
+    "slug": "iron-sting",
+    "type": "Sword",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/iron-sting/icon"
+  },
+  {
+    "name": "Amenoma Kageuchi",
+    "slug": "amenoma-kageuchi",
+    "type": "Sword",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/amenoma-kageuchi/icon"
+  },
+  {
+    "name": "Blackcliff Longsword",
+    "slug": "blackcliff-longsword",
+    "type": "Sword",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/blackcliff-longsword/icon"
+  },
+  {
+    "name": "Amos' Bow",
+    "slug": "amos-bow",
+    "type": "Bow",
+    "rarity": "5",
+    "standard": true,
+    "img": "https://genshin.jmp.blue/weapons/amos-bow/icon"
+  },
+  {
+    "name": "Thundering Pulse",
+    "slug": "thundering-pulse",
+    "type": "Bow",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/thundering-pulse/icon"
+  },
+  {
+    "name": "Polar Star",
+    "slug": "polar-star",
+    "type": "Bow",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/polar-star/icon"
+  },
+  {
+    "name": "Aqua Simulacra",
+    "slug": "aqua-simulacra",
+    "type": "Bow",
+    "rarity": "5",
+    "standard": true,
+    "img": "https://genshin.jmp.blue/weapons/aqua-simulacra/icon"
+  },
+  {
+    "name": "Hunter's Path",
+    "slug": "hunters-path",
+    "type": "Bow",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/hunters-path/icon"
+  },
+  {
+    "name": "The First Great Magic",
+    "slug": "the-first-great-magic",
+    "type": "Bow",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/the-first-great-magic/icon"
+  },
+  {
+    "name": "Skyward Harp",
+    "slug": "skyward-harp",
+    "type": "Bow",
+    "rarity": "5",
+    "standard": true,
+    "img": "https://genshin.jmp.blue/weapons/skyward-harp/icon"
+  },
+  {
+    "name": "Elegy for the End",
+    "slug": "elegy-for-the-end",
+    "type": "Bow",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/elegy-for-the-end/icon"
+  },
+  {
+    "name": "Rust",
+    "slug": "rust",
+    "type": "Bow",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/rust/icon"
+  },
+  {
+    "name": "Sacrificial Bow",
+    "slug": "sacrificial-bow",
+    "type": "Bow",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/sacrificial-bow/icon"
+  },
+  {
+    "name": "Favonius Warbow",
+    "slug": "favonius-warbow",
+    "type": "Bow",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/favonius-warbow/icon"
+  },
+  {
+    "name": "The Stringless",
+    "slug": "the-stringless",
+    "type": "Bow",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/the-stringless/icon"
+  },
+  {
+    "name": "Blackcliff Warbow",
+    "slug": "blackcliff-warbow",
+    "type": "Bow",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/blackcliff-warbow/icon"
+  },
+  {
+    "name": "Prototype Crescent",
+    "slug": "prototype-crescent",
+    "type": "Bow",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/prototype-crescent/icon"
+  },
+  {
+    "name": "Hamayumi",
+    "slug": "hamayumi",
+    "type": "Bow",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/hamayumi/icon"
+  },
+  {
+    "name": "Lost Prayer to the Sacred Winds",
+    "slug": "lost-prayer-to-the-sacred-winds",
+    "type": "Catalyst",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/lost-prayer-to-the-sacred-winds/icon"
+  },
+  {
+    "name": "Skyward Atlas",
+    "slug": "skyward-atlas",
+    "type": "Catalyst",
+    "rarity": "5",
+    "standard": true,
+    "img": "https://genshin.jmp.blue/weapons/skyward-atlas/icon"
+  },
+  {
+    "name": "Memory of Dust",
+    "slug": "memory-of-dust",
+    "type": "Catalyst",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/memory-of-dust/icon"
+  },
+  {
+    "name": "Everlasting Moonglow",
+    "slug": "everlasting-moonglow",
+    "type": "Catalyst",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/everlasting-moonglow/icon"
+  },
+  {
+    "name": "Kagura's Verity",
+    "slug": "kaguras-verity",
+    "type": "Catalyst",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/kaguras-verity/icon"
+  },
+  {
+    "name": "A Thousand Floating Dreams",
+    "slug": "a-thousand-floating-dreams",
+    "type": "Catalyst",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/a-thousand-floating-dreams/icon"
+  },
+  {
+    "name": "Tulaytullah's Remembrance",
+    "slug": "tulaytullahs-remembrance",
+    "type": "Catalyst",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/tulaytullahs-remembrance/icon"
+  },
+  {
+    "name": "Jadefall's Splendor",
+    "slug": "jadefalls-splendor",
+    "type": "Catalyst",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/jadefalls-splendor/icon"
+  },
+  {
+    "name": "Tome of the Eternal Flow",
+    "slug": "tome-of-the-eternal-flow",
+    "type": "Catalyst",
+    "rarity": "5",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/tome-of-the-eternal-flow/icon"
+  },
+  {
+    "name": "Favonius Codex",
+    "slug": "favonius-codex",
+    "type": "Catalyst",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/favonius-codex/icon"
+  },
+  {
+    "name": "Sacrificial Fragments",
+    "slug": "sacrificial-fragments",
+    "type": "Catalyst",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/sacrificial-fragments/icon"
+  },
+  {
+    "name": "Eye of Perception",
+    "slug": "eye-of-perception",
+    "type": "Catalyst",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/eye-of-perception/icon"
+  },
+  {
+    "name": "The Widsith",
+    "slug": "the-widsith",
+    "type": "Catalyst",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/the-widsith/icon"
+  },
+  {
+    "name": "Blackcliff Agate",
+    "slug": "blackcliff-agate",
+    "type": "Catalyst",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/blackcliff-agate/icon"
+  },
+  {
+    "name": "Solar Pearl",
+    "slug": "solar-pearl",
+    "type": "Catalyst",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/solar-pearl/icon"
+  },
+  {
+    "name": "Prototype Amber",
+    "slug": "prototype-amber",
+    "type": "Catalyst",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/prototype-amber/icon"
+  },
+  {
+    "name": "Frostbearer",
+    "slug": "frostbearer",
+    "type": "Catalyst",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/frostbearer/icon"
+  },
+  {
+    "name": "Dodoco Tales",
+    "slug": "dodoco-tales",
+    "type": "Catalyst",
+    "rarity": "4",
+    "standard": false,
+    "img": "https://genshin.jmp.blue/weapons/dodoco-tales/icon"
+  }
 ]

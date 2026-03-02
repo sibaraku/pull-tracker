@@ -1,11 +1,32 @@
-/* CARDS*/
+/* CARDS */
 .stats-card {
   background: transparent;
 }
 
-.card-content{
+.card-content {
   background: var(--card-bg);
   border-radius: 15px;
   padding: 20px;
   border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05); 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/* renmove maring from last cihld */
+li:last-child {
+  margin-bottom: 0;
 }
