@@ -1,5 +1,5 @@
 import './AddPull.css'
-import Card from '../UI/card.jsx'
+import Card from '../UI/Card.jsx'
 import { useState } from 'react'
 
 function AddPull(){

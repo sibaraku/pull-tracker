@@ -1,13 +1,13 @@
 import Stats from './components/Stats/Stats.jsx'
 import AddPull from './components/AddPull/AddPull.jsx'
 import History from './components/History/History.jsx'
+import Header from './components/Header/Header.jsx'
+import './App.css'
 
 function App() {
   return (
     <>
-    <div className="App">
-      <h1>Pull Tracker</h1>
-    </div>
+    <Header/>
     <Stats/>
     <AddPull/>
     <History/>

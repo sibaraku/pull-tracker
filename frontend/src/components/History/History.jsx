@@ -1,5 +1,5 @@
 import './History.css'
-import Card from '../UI/card.jsx'
+import Card from '../UI/Card.jsx'
 
 
 function History() {
