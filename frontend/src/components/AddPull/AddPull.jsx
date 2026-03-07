@@ -6,7 +6,7 @@ function AddPull(){
 
 
     return(
-        <Card><button>ADD PULL OR SOMETHING</button></Card>
+        <Card className="addPull"><button>ADD PULL OR SOMETHING</button></Card>
     )
 }
 

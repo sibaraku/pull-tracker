@@ -1,13 +1,23 @@
 import { useState } from "react";
 import "./Header.css";
 
-function Header() {
+function Header(props) {
   return (
     <header className="header">
       <h1>Pull Tracker</h1>
       <div className="tabs">
-        <button className="tab active">Genshin</button>
-        <button className="tab">Honkai Star Rail</button>
+        <button 
+          className={`tab ${props.activeGame === "Genshin" ? "active" : ""}`}
+          onClick={() => props.setActiveGame("Genshin")}
+        >
+          Genshin
+        </button>
+        <button 
+          className={`tab ${props.activeGame === "HSR" ? "active" : ""}`}
+          onClick={() => props.setActiveGame("HSR")}
+        >
+          Honkai Star Rail
+        </button>
       </div>
     </header>
   );

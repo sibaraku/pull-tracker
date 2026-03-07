@@ -1,39 +1,65 @@
+/* HISTORY SECTION WRAPPER */
+.history-section {
+  width: 100%;
+}
+
 /* HISTORY LIST */
 .history-list {
-  height: 160px;
+  height: 340px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 14px;
+  padding: 4px 8px 4px 4px;
 
-
-  background: var(--card-bg);
-  border-radius: 15px;
-  padding: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.05);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.2) transparent;
 }
 
-.pull-item {
-  padding: 12px;
+.history-list::-webkit-scrollbar {
+  width: 8px;
+}
+
+.history-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.history-list::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
   border-radius: 10px;
-  font-weight: bold;
-  font-size: 0.9rem;
+}
+
+/* PULL ITEM BASE */
+.pull-item {
+  padding: 28px 24px;
+  border-radius: 16px;
+  font-weight: 600;
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 /* RARITY COLORS */
-.blue {
-  background-color: var(--rarity-3);
+.pull-item.blue {
+  background-color: #97D7EA;
 }
 
-.purple {
-  background-color: var(--rarity-4);
+.pull-item.purple {
+  background-color: #D5C6F3;
 }
 
-.gold {
-  background-color: var(--rarity-5);
+.pull-item.gold {
+  background-color: #E4CD99;
 }
 
-/* CARDS*/
+/* CARD WRAPPER */
 .history-card {
-  background: transparent;
+  background: #e8e2f5 !important;
+  padding: 20px !important;
+  border-radius: 20px !important;
+  width: 100% !important;
+  max-width: none !important;
+  box-sizing: border-box !important;
 }

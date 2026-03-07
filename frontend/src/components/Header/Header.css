@@ -26,4 +26,10 @@ h1 {
 
 .tab.active {
   opacity: 1;
+  scale: 1.02;
+}
+
+.tab:not(.active):hover {
+  background: #786c91;
+  transform: scale(1.02);
 }
