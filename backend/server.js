@@ -2,10 +2,12 @@ const express = require('express')
 const fs = require("fs");
 const cors = require('cors');
 const app = express()
+const path = require('path');
 
 port = 3000
 
 app.use(cors())
+app.use('/images', express.static(path.join(__dirname, 'public', 'images')))
 
 let charactersGenshin = []
 let weaponsGenshin = []

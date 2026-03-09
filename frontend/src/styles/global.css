@@ -1,33 +1,32 @@
-/* ROOT VARIABLES*/
+/* ROOT VARIABLES */
 :root {
-  --bg-color: #fff6f6;       /* Body background color */
-  --card-bg: #ede7f6;        /* Card background color */
-  --accent-purple: #d5c6f3;  /* Accent color for tabs/buttons */
-  --text-color: #333;        /* Default text color */
-  --rarity-3: #90d8e9;       /* 3* pull color */
-  --rarity-4: #d1c4e9;       /* 4* pull color */
-  --rarity-5: #e6ce9d;       /* 5* pull color */
+  --bg-color: #fdf6f0;
+  --card-bg: #ffffff;
+  --accent-purple: #d5c6f3;
+  --text-color: #333;
+  --rarity-3: #90d8e9;
+  --rarity-4: #d1c4e9;
+  --rarity-5: #e6ce9d;
   --rarity-5-dark: #ddbb7a;
 }
-/* BODY & CONTAINER */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: var(--bg-color);
   color: var(--text-color);
   margin: 0;
-  display: flex;
-  justify-content: center;
-  padding: 40px 20px; 
+  padding: 40px 20px;
+  /* REMOVED display:flex — this was stopping .container from filling full width */
 }
 
 .container {
   width: 100%;
-  max-width: 1000px;
-}
-
-/* DASHBOARD GRID*/
-.dashboard {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;   /* centers without needing flex on body */
+  padding: 0 40px;
+  box-sizing: border-box;
 }

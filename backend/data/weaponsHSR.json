@@ -1,177 +1,177 @@
 [
-    {
-        "name": "In the Night",
-        "slug": "in-the-night",
-        "rarity": "5",
-        "standard": false,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Light_Cone_In_the_Night_Artwork.png/revision/latest?cb=20230430171755"
-    },
-    {
-        "name": "But the Battle Isn't Over",
-        "slug": "but-the-battle-isnt-over",
-        "rarity": "5",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9c/Light_Cone_But_the_Battle_Isn%27t_Over_Artwork.png/revision/latest?cb=20230430171719"
-    },
-    {
-        "name": "Sleep Like the Dead",
-        "slug": "sleep-like-the-dead",
-        "rarity": "5",
-        "standard": false,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/dd/Light_Cone_Sleep_Like_the_Dead_Artwork.png/revision/latest?cb=20230430171847"
-    },
-    {
-        "name": "Time Waits for No One",
-        "slug": "time-waits-for-no-one",
-        "rarity": "5",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/1c/Light_Cone_Time_Waits_for_No_One_Artwork.png/revision/latest?cb=20230430171652"
-    },
-    {
-        "name": "I Shall Be My Own Sword",
-        "slug": "i-shall-be-my-own-sword",
-        "rarity": "5",
-        "standard": false,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0f/Light_Cone_I_Shall_Be_My_Own_Sword_Artwork.png/revision/latest?cb=20231011030706"
-    },
-    {
-        "name": "Echoes of the Coffin",
-        "slug": "echoes-of-the-coffin",
-        "rarity": "5",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/0b/Light_Cone_Echoes_of_the_Coffin_Artwork.png/revision/latest?cb=20230628093353"
-    },
-    {
-        "name": "Before Dawn",
-        "slug": "before-dawn",
-        "rarity": "5",
-        "standard": false,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/31/Light_Cone_Before_Dawn_Artwork.png/revision/latest?cb=20230430171717"
-    },
-    {
-        "name": "In the Name of the World",
-        "slug": "in-the-name-of-the-world",
-        "rarity": "5",
-        "standard": false,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/52/Light_Cone_In_the_Name_of_the_World_Artwork.png/revision/latest?cb=20230430171753"
-    },
-    {
-        "name": "Moment of Victory",
-        "slug": "moment-of-victory",
-        "rarity": "5",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c1/Light_Cone_Moment_of_Victory_Artwork.png/revision/latest?cb=20230430171809"
-    },
-    {
-        "name": "Patience Is All You Need",
-        "slug": "patience-is-all-you-need",
-        "rarity": "5",
-        "standard": false,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Light_Cone_Patience_Is_All_You_Need_Artwork.png/revision/latest?cb=20230809041927"
-    },
-    {
-        "name": "Night on the Milky Way",
-        "slug": "night-on-the-milky-way",
-        "rarity": "5",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d5/Light_Cone_Night_on_the_Milky_Way_Artwork.png/revision/latest?cb=20230430171815"
-    },
-    {
-        "name": "On the Fall of an Aeon",
-        "slug": "on-the-fall-of-an-aeon",
-        "rarity": "5",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e2/Light_Cone_On_the_Fall_of_an_Aeon_Artwork.png/revision/latest?cb=20230430171819"
-    },
-    {
-        "name": "Solitary Healing",
-        "slug": "solitary-healing",
-        "rarity": "5",
-        "standard": false,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/4a/Light_Cone_Solitary_Healing_Artwork.png/revision/latest?cb=20230830022659"
-    },
-    {
-        "name": "Cruising in the Stellar Sea",
-        "slug": "cruising-in-the-stellar-sea",
-        "rarity": "4",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/56/Light_Cone_Cruising_in_the_Stellar_Sea_Artwork.png/revision/latest?cb=20230430171729"
-    },
-    {
-        "name": "The Unreachable Side",
-        "slug": "the-unreachable-side",
-        "rarity": "4",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Light_Cone_The_Unreachable_Side_Artwork.png/revision/latest?cb=20230719023233"
-    },
-    {
-        "name": "Nowhere to Run",
-        "slug": "nowhere-to-run",
-        "rarity": "4",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/9a/Light_Cone_Nowhere_to_Run_Artwork.png/revision/latest?cb=20230430171817"
-    },
-    {
-        "name": "Boundless Choreo",
-        "slug": "boundless-choreo",
-        "rarity": "4",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/30/Light_Cone_Boundless_Choreo_Artwork.png/revision/latest?cb=20240508030648"
-    },
-    {
-        "name": "Subscribe for More!",
-        "slug": "subscribe-for-more",
-        "rarity": "4",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/44/Light_Cone_Subscribe_for_More%21_Artwork.png/revision/latest?cb=20230430171851"
-    },
-    {
-        "name": "Return to Darkness",
-        "slug": "return-to-darkness",
-        "rarity": "4",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/4/44/Light_Cone_Return_to_Darkness_Artwork.png/revision/latest?cb=20230430171838"
-    },
-    {
-        "name": "Make the World Clamor",
-        "slug": "make-the-world-clamor",
-        "rarity": "4",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b4/Light_Cone_Make_the_World_Clamor_Artwork.png/revision/latest?cb=20230430171801"
-    },
-    {
-        "name": "Fermata",
-        "slug": "fermata",
-        "rarity": "4",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/73/Light_Cone_Fermata_Artwork.png/revision/latest?cb=20230430171742"
-    },
-    {
-        "name": "Past and Future",
-        "slug": "past-and-future",
-        "rarity": "4",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/b/b9/Light_Cone_Past_and_Future_Artwork.png/revision/latest?cb=20230430171824"
-    },
-    {
-        "name": "Planetary Rendezvous",
-        "slug": "planetary-rendezvous",
-        "rarity": "4",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/13/Light_Cone_Planetary_Rendezvous_Artwork.png/revision/latest?cb=20230430171830"
-    },
-    {
-        "name": "Dance! Dance! Dance!",
-        "slug": "dance-dance-dance",
-        "rarity": "4",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/f/fb/Light_Cone_Dance%21_Dance%21_Dance%21_Artwork.png/revision/latest?cb=20230430171731"
-    },
-    {
-        "name": "Carve the Moon, Weave the Clouds",
-        "slug": "carve-the-moon-weave-the-clouds",
-        "rarity": "4",
-        "standard": true,
-        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/05/Light_Cone_Carve_the_Moon%2C_Weave_the_Clouds_Artwork.png/revision/latest?cb=20230430171721"
-    }
+  {
+    "name": "In the Night",
+    "slug": "in-the-night",
+    "rarity": "5",
+    "standard": false,
+    "img": "/images/hsr/weapons/in-the-night.png"
+  },
+  {
+    "name": "But the Battle Isn't Over",
+    "slug": "but-the-battle-isnt-over",
+    "rarity": "5",
+    "standard": true,
+    "img": "/images/hsr/weapons/but-the-battle-isnt-over.png"
+  },
+  {
+    "name": "Sleep Like the Dead",
+    "slug": "sleep-like-the-dead",
+    "rarity": "5",
+    "standard": false,
+    "img": "/images/hsr/weapons/sleep-like-the-dead.png"
+  },
+  {
+    "name": "Time Waits for No One",
+    "slug": "time-waits-for-no-one",
+    "rarity": "5",
+    "standard": true,
+    "img": "/images/hsr/weapons/time-waits-for-no-one.png"
+  },
+  {
+    "name": "I Shall Be My Own Sword",
+    "slug": "i-shall-be-my-own-sword",
+    "rarity": "5",
+    "standard": false,
+    "img": "/images/hsr/weapons/i-shall-be-my-own-sword.png"
+  },
+  {
+    "name": "Echoes of the Coffin",
+    "slug": "echoes-of-the-coffin",
+    "rarity": "5",
+    "standard": true,
+    "img": "/images/hsr/weapons/echoes-of-the-coffin.png"
+  },
+  {
+    "name": "Before Dawn",
+    "slug": "before-dawn",
+    "rarity": "5",
+    "standard": false,
+    "img": "/images/hsr/weapons/before-dawn.png"
+  },
+  {
+    "name": "In the Name of the World",
+    "slug": "in-the-name-of-the-world",
+    "rarity": "5",
+    "standard": false,
+    "img": "/images/hsr/weapons/in-the-name-of-the-world.png"
+  },
+  {
+    "name": "Moment of Victory",
+    "slug": "moment-of-victory",
+    "rarity": "5",
+    "standard": true,
+    "img": "/images/hsr/weapons/moment-of-victory.png"
+  },
+  {
+    "name": "Patience Is All You Need",
+    "slug": "patience-is-all-you-need",
+    "rarity": "5",
+    "standard": false,
+    "img": "/images/hsr/weapons/patience-is-all-you-need.png"
+  },
+  {
+    "name": "Night on the Milky Way",
+    "slug": "night-on-the-milky-way",
+    "rarity": "5",
+    "standard": true,
+    "img": "/images/hsr/weapons/night-on-the-milky-way.png"
+  },
+  {
+    "name": "On the Fall of an Aeon",
+    "slug": "on-the-fall-of-an-aeon",
+    "rarity": "5",
+    "standard": true,
+    "img": "/images/hsr/weapons/on-the-fall-of-an-aeon.png"
+  },
+  {
+    "name": "Solitary Healing",
+    "slug": "solitary-healing",
+    "rarity": "5",
+    "standard": false,
+    "img": "/images/hsr/weapons/solitary-healing.png"
+  },
+  {
+    "name": "Cruising in the Stellar Sea",
+    "slug": "cruising-in-the-stellar-sea",
+    "rarity": "4",
+    "standard": true,
+    "img": "/images/hsr/weapons/cruising-in-the-stellar-sea.png"
+  },
+  {
+    "name": "The Unreachable Side",
+    "slug": "the-unreachable-side",
+    "rarity": "4",
+    "standard": true,
+    "img": "/images/hsr/weapons/the-unreachable-side.png"
+  },
+  {
+    "name": "Nowhere to Run",
+    "slug": "nowhere-to-run",
+    "rarity": "4",
+    "standard": true,
+    "img": "/images/hsr/weapons/nowhere-to-run.png"
+  },
+  {
+    "name": "Boundless Choreo",
+    "slug": "boundless-choreo",
+    "rarity": "4",
+    "standard": true,
+    "img": "/images/hsr/weapons/boundless-choreo.png"
+  },
+  {
+    "name": "Subscribe for More!",
+    "slug": "subscribe-for-more",
+    "rarity": "4",
+    "standard": true,
+    "img": "/images/hsr/weapons/subscribe-for-more.png"
+  },
+  {
+    "name": "Return to Darkness",
+    "slug": "return-to-darkness",
+    "rarity": "4",
+    "standard": true,
+    "img": "/images/hsr/weapons/return-to-darkness.png"
+  },
+  {
+    "name": "Make the World Clamor",
+    "slug": "make-the-world-clamor",
+    "rarity": "4",
+    "standard": true,
+    "img": "/images/hsr/weapons/make-the-world-clamor.png"
+  },
+  {
+    "name": "Fermata",
+    "slug": "fermata",
+    "rarity": "4",
+    "standard": true,
+    "img": "/images/hsr/weapons/fermata.png"
+  },
+  {
+    "name": "Past and Future",
+    "slug": "past-and-future",
+    "rarity": "4",
+    "standard": true,
+    "img": "/images/hsr/weapons/past-and-future.png"
+  },
+  {
+    "name": "Planetary Rendezvous",
+    "slug": "planetary-rendezvous",
+    "rarity": "4",
+    "standard": true,
+    "img": "/images/hsr/weapons/planetary-rendezvous.png"
+  },
+  {
+    "name": "Dance! Dance! Dance!",
+    "slug": "dance-dance-dance",
+    "rarity": "4",
+    "standard": true,
+    "img": "/images/hsr/weapons/dance-dance-dance.png"
+  },
+  {
+    "name": "Carve the Moon, Weave the Clouds",
+    "slug": "carve-the-moon-weave-the-clouds",
+    "rarity": "4",
+    "standard": true,
+    "img": "/images/hsr/weapons/carve-the-moon-weave-the-clouds.png"
+  }
 ]

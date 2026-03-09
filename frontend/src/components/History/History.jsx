@@ -9,22 +9,18 @@ function History({ pulls }) {
   }
 
   return (
-    <div className="history-section">
-      <h3>PULL HISTORY</h3>
-      <Card className="history-card">
-        <div className="history-list">
-          {pulls.length === 0 && <p>No pulls yet!</p>}
-
-          {[...pulls].reverse().map((pull, index) => (
-            <div key={pull.id} className={getColor(pull.rating)}>
-              {pulls.length - index} - {pull.rating}★: {pull.name}
-              {pull.rating === 5 && pull.win  && ' (WIN)'}
-              {pull.rating === 5 && !pull.win && ' (LOSS)'}
-            </div>
-          ))}
-        </div>
-      </Card>
-    </div>
+    <Card className="history-card">
+      <div className="history-list">
+        {pulls.length === 0 && <p>No pulls yet!</p>}
+        {[...pulls].reverse().map((pull, index) => (
+          <div key={pull.id} className={getColor(pull.rating)}>
+            {pulls.length - index} - {pull.rating}★: {pull.name}
+            {pull.rating === 5 && pull.win  && ' (WIN)'}
+            {pull.rating === 5 && !pull.win && ' (LOSS)'}
+          </div>
+        ))}
+      </div>
+    </Card>
   )
 }
 

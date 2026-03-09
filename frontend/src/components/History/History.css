@@ -1,6 +1,19 @@
 /* HISTORY SECTION WRAPPER */
 .history-section {
-  width: 100%;
+  width: 150%;
+}
+
+/* HISTORY CARD - full width */
+.history-card.card {
+  background: #e8e2f5 !important;
+  border-radius: 18px !important;
+  padding: 18px !important;
+  width: 100% !important;
+  max-width: none !important;
+  box-sizing: border-box !important;
+  box-shadow: none !important;
+  border: none !important;
+  display: block !important;
 }
 
 /* HISTORY LIST */
@@ -9,15 +22,14 @@
   overflow-y: auto;
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
   padding: 4px 8px 4px 4px;
-
   scrollbar-width: thin;
-  scrollbar-color: rgba(0,0,0,0.2) transparent;
+  scrollbar-color: rgba(0, 0, 0, 0.15) transparent;
 }
 
 .history-list::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 .history-list::-webkit-scrollbar-track {
@@ -25,41 +37,32 @@
 }
 
 .history-list::-webkit-scrollbar-thumb {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(0, 0, 0, 0.15);
   border-radius: 10px;
 }
 
 /* PULL ITEM BASE */
 .pull-item {
-  padding: 28px 24px;
-  border-radius: 16px;
+  padding: 22px 24px;
+  border-radius: 14px;
   font-weight: 600;
-  font-size: 1.05rem;
+  font-size: 1rem;
   display: flex;
   align-items: center;
   width: 100%;
   box-sizing: border-box;
+  color: #333;
 }
 
 /* RARITY COLORS */
 .pull-item.blue {
-  background-color: #97D7EA;
+  background-color: #97d7ea;
 }
 
 .pull-item.purple {
-  background-color: #D5C6F3;
+  background-color: #d5c6f3;
 }
 
 .pull-item.gold {
-  background-color: #E4CD99;
-}
-
-/* CARD WRAPPER */
-.history-card {
-  background: #e8e2f5 !important;
-  padding: 20px !important;
-  border-radius: 20px !important;
-  width: 100% !important;
-  max-width: none !important;
-  box-sizing: border-box !important;
+  background-color: #e4cd99;
 }

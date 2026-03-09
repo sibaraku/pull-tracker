@@ -6,9 +6,22 @@ import AddPull from '../AddPull/AddPull.jsx'
 function Dashboard({ activeGame, pulls, addPull }) {
   return (
     <main className="dashboard">
-      <Stats pulls={pulls} />
-      <History pulls={pulls} />
-      <AddPull activeGame={activeGame} addPull={addPull} />
+
+      {/* STATISTICS label above, cards below */}
+      <div className="section-block">
+        <p className="section-label">STATISTICS</p>
+        <div className="stats-and-action">
+          <Stats pulls={pulls} />
+          <AddPull activeGame={activeGame} addPull={addPull} />
+        </div>
+      </div>
+
+      {/* PULL HISTORY label above, full-width history below */}
+      <div className="section-block">
+        <p className="section-label">PULL HISTORY</p>
+        <History pulls={pulls} />
+      </div>
+
     </main>
   )
 }

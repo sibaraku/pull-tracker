@@ -1,12 +1,28 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Header from './components/Header/Header.jsx'
 import Dashboard from './components/Dashboard/Dashboard.jsx'
 import './App.css'
 
 function App() {
   const [activeGame, setActiveGame] = useState('Genshin')
-  const [genshinPulls, setGenshinPulls] = useState([])
-  const [hsrPulls, setHsrPulls] = useState([])
+
+  const [genshinPulls, setGenshinPulls] = useState(() => {
+    const saved = localStorage.getItem('genshinPulls')
+    return saved ? JSON.parse(saved) : []
+  })
+
+  const [hsrPulls, setHsrPulls] = useState(() => {
+    const saved = localStorage.getItem('hsrPulls')
+    return saved ? JSON.parse(saved) : []
+  })
+
+  useEffect(() => {
+    localStorage.setItem('genshinPulls', JSON.stringify(genshinPulls))
+  }, [genshinPulls])
+
+  useEffect(() => {
+    localStorage.setItem('hsrPulls', JSON.stringify(hsrPulls))
+  }, [hsrPulls])
 
   const pulls = activeGame === 'Genshin' ? genshinPulls : hsrPulls
 

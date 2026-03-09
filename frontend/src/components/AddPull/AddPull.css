@@ -1,29 +1,29 @@
-/* CARDS*/
 .add-pull-card {
-  background: transparent;
-
-grid-column: span 2;
-}
-
-.add-pull-card {
-  background: var(--card-bg);
-  border-radius: 15px;
-  padding: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-}
-
-/* ADD PULL CARD */
-.character-add-pull-box {
-  background: #d5c6f3;
-  height: 100px;
-  margin: 10px 0 20px 0;
+  background: #e8e4f8;
+  border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2rem;
-  color: #333;
-  font-weight: bold;
-  border-radius: 10px;
+  cursor: pointer;
+  min-height: 120px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  transition: background 0.2s, transform 0.15s;
+}
+
+.add-pull-card:hover {
+  background: #ddd7f5;
+  transform: scale(1.01);
+}
+
+.add-pull-label {
+  font-size: 0.9rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #444;
+  user-select: none;
 }
 
 /* RARITY GRID BUTTONS */
