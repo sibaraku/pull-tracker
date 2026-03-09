@@ -1,34 +1,30 @@
 import './Stats.css'
 import Card from '../UI/Card.jsx'
 
-function Stats(props) {
+function Stats({ pulls }) {
+  const totalPulls = pulls.length
+  const total5Star = pulls.filter(p => p.rating === 5).length
 
-    let genshinStats = {   pulls: 122,
-                            fiveStars: 5,
-                            pullCount: 6}
+  // calculate the pity how many pulls since the last 5★
+  let pity = 0
+  for (let i = pulls.length - 1; i >= 0; i--) {
+    if (pulls[i].rating === 5) break
+    pity++
+  }
+  if (pulls.length === 0) pity = 0
 
-    let hsrStats = {   pulls: 67,
-                        fiveStars: 2,
-                        pullCount: 4}
-
-    
-    localStorage.setItem('GenshinStats', JSON.stringify(genshinStats))
-    localStorage.setItem('HSRStats', JSON.stringify(hsrStats))
-
-    let ActiveStats = props.activeGame === "Genshin" ? JSON.parse(localStorage.getItem('GenshinStats')) : JSON.parse(localStorage.getItem('HSRStats'))
-
-    return (
-        <>
-        <h3>Statistics</h3>
-        <Card className="Statistics">
+  return (
+    <>
+      <h3>STATISTICS</h3>
+      <Card className="Statistics">
         <ul>
-            <li>Total pulls: {ActiveStats.pulls}</li>
-            <li>Total 5★: {ActiveStats.fiveStars}</li>
-            <li>Current pull count: {ActiveStats.pullCount}</li>
+          <li>Total pulls: <strong>{totalPulls}</strong></li>
+          <li>Total 5★: <strong>{total5Star}</strong></li>
+          <li>Current pity: <strong>{pity}</strong></li>
         </ul>
-        </Card>
-        </>
-        )
+      </Card>
+    </>
+  )
 }
 
 export default Stats

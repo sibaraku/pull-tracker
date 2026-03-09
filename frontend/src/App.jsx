@@ -1,22 +1,29 @@
-import Stats from './components/Stats/Stats.jsx'
-import AddPull from './components/AddPull/AddPull.jsx'
-import History from './components/History/History.jsx'
-import Header from './components/Header/Header.jsx'
 import { useState } from 'react'
+import Header from './components/Header/Header.jsx'
+import Dashboard from './components/Dashboard/Dashboard.jsx'
 import './App.css'
 
 function App() {
+  const [activeGame, setActiveGame] = useState('Genshin')
+  const [genshinPulls, setGenshinPulls] = useState([])
+  const [hsrPulls, setHsrPulls] = useState([])
 
-  const [activeGame, setActiveGame] = useState("Genshin")
+  const pulls = activeGame === 'Genshin' ? genshinPulls : hsrPulls
+
+  function addPull(pull) {
+    if (activeGame === 'Genshin') {
+      setGenshinPulls([...genshinPulls, pull])
+    } else {
+      setHsrPulls([...hsrPulls, pull])
+    }
+  }
 
   return (
-    <div className='container'>
-    <Header activeGame={activeGame} setActiveGame={setActiveGame} />
-    <Stats activeGame={activeGame}/>
-    <AddPull activeGame={activeGame}/>
-    <History activeGame={activeGame}/>
+    <div className="container">
+      <Header activeGame={activeGame} setActiveGame={setActiveGame} />
+      <Dashboard activeGame={activeGame} pulls={pulls} addPull={addPull} />
     </div>
-    )
+  )
 }
-  
+
 export default App
