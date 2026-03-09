@@ -1,0 +1,177 @@
+[
+    {
+        "name": "Welt",
+        "slug": "welt",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/11/Character_Welt_Splash_Art.png/revision/latest?cb=20230525090017"
+    },
+    {
+        "name": "Himeko",
+        "slug": "himeko",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/8/8e/Character_Himeko_Splash_Art.png/revision/latest?cb=20230525090036"
+    },
+    {
+        "name": "Bailu",
+        "slug": "bailu",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/e9/Character_Bailu_Splash_Art.png/revision/latest?cb=20230210120736"
+    },
+    {
+        "name": "Clara",
+        "slug": "clara",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c2/Character_Clara_Splash_Art.png/revision/latest?cb=20230216231958"
+    },
+    {
+        "name": "Bronya",
+        "slug": "bronya",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7c/Character_Bronya_Splash_Art.png/revision/latest?cb=20240121130128"
+    },
+    {
+        "name": "Gepard",
+        "slug": "gepard",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/96/Character_Gepard_Splash_Art.png/revision/latest?cb=20230216232354"
+    },
+    {
+        "name": "Yanqing",
+        "slug": "yanqing",
+        "rarity": "5",
+        "standard": true,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/6d/Character_Yanqing_Splash_Art.png/revision/latest?cb=20230210121516"
+    },
+    {
+        "name": "Seele",
+        "slug": "seele",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/58/Character_Seele_Splash_Art.png/revision/latest?cb=20240121123334"
+    },
+    {
+        "name": "Kafka",
+        "slug": "kafka",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/9/95/Character_Kafka_Splash_Art.png/revision/latest?cb=20230809042240"
+    },
+    {
+        "name": "Blade",
+        "slug": "blade",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/1/16/Character_Blade_Splash_Art.png/revision/latest?cb=20230501004859"
+    },
+    {
+        "name": "Silver Wolf",
+        "slug": "silver-wolf",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/6/60/Character_Silver_Wolf_Splash_Art.png/revision/latest?cb=20230216230911"
+    },
+    {
+        "name": "Luocha",
+        "slug": "luocha",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/a/a5/Character_Luocha_Splash_Art.png/revision/latest?cb=20230628091054"
+    },
+    {
+        "name": "Dan Heng Imbibitor Lunae",
+        "slug": "dan-heng-il",
+        "rarity": "5",
+        "standard": false,
+        "img": "IMAGE_NOT_FOUND"
+    },
+    {
+        "name": "Fu Xuan",
+        "slug": "fu-xuan",
+        "rarity": "5",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3e/Character_Fu_Xuan_Splash_Art.png/revision/latest?cb=20230928224921"
+    },
+    {
+        "name": "Lynx",
+        "slug": "lynx",
+        "rarity": "4",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/3c/Character_Lynx_Splash_Art.png/revision/latest?cb=20230719101506"
+    },
+    {
+        "name": "Guinaifen",
+        "slug": "guinaifen",
+        "rarity": "4",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/3/33/Character_Guinaifen_Splash_Art.png/revision/latest?cb=20231030040741"
+    },
+    {
+        "name": "Luka",
+        "slug": "luka",
+        "rarity": "4",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/51/Character_Luka_Splash_Art.png/revision/latest?cb=20230809042157"
+    },
+    {
+        "name": "Yukong",
+        "slug": "yukong",
+        "rarity": "4",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/0/04/Character_Yukong_Splash_Art.png/revision/latest?cb=20230628090836"
+    },
+    {
+        "name": "Sushang",
+        "slug": "sushang",
+        "rarity": "4",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/72/Character_Sushang_Splash_Art.png/revision/latest?cb=20230210115023"
+    },
+    {
+        "name": "Qingque",
+        "slug": "qingque",
+        "rarity": "4",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/d/d1/Character_Qingque_Splash_Art.png/revision/latest?cb=20230210115335"
+    },
+    {
+        "name": "Tingyun",
+        "slug": "tingyun",
+        "rarity": "4",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Character_Tingyun_Splash_Art.png/revision/latest?cb=20230210115502"
+    },
+    {
+        "name": "Pela",
+        "slug": "pela",
+        "rarity": "4",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/c/c9/Character_Pela_Splash_Art.png/revision/latest?cb=20230525090100"
+    },
+    {
+        "name": "Natasha",
+        "slug": "natasha",
+        "rarity": "4",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/7/7e/Character_Natasha_Splash_Art.png/revision/latest?cb=20240525042421"
+    },
+    {
+        "name": "Hook",
+        "slug": "hook",
+        "rarity": "4",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/e/ec/Character_Hook_Splash_Art.png/revision/latest?cb=20230525090126"
+    },
+    {
+        "name": "Arlan",
+        "slug": "arlan",
+        "rarity": "4",
+        "standard": false,
+        "img": "https://static.wikia.nocookie.net/houkai-star-rail/images/5/5b/Character_Arlan_Splash_Art.png/revision/latest?cb=20230216231038"
+    }
+]

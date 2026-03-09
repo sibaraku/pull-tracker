@@ -5,13 +5,26 @@ const app = express()
 
 port = 3000
 
-let characters;
+let charactersGenshin = []
+let weaponsGenshin = []
 
-const dataChar = fs.readFileSync("./data/characters.json")
-characters = JSON.parse(dataChar)
+let charactersHSR = []
+let weaponsHSR = [];
 
-const dataWeapon = fs.readFileSync("./data/weapons.json")
-weapons = JSON.parse(dataWeapon)
+// Genshin
+const dataCharGenshin = fs.readFileSync("./data/charactersGenshin.json")
+charactersGenshin = JSON.parse(dataCharGenshin)
+
+const dataWeaponGenshin = fs.readFileSync("./data/weaponsGenshin.json")
+weaponsGenshin = JSON.parse(dataWeaponGenshin)
+
+//HSR
+const dataCharHSR = fs.readFileSync("./data/charactersHSR.json")
+charactersHSR = JSON.parse(dataCharHSR)
+
+const dataWeaponHSR = fs.readFileSync("./data/weaponsHSR.json")
+weaponsHSR = JSON.parse(dataWeaponHSR)
+
 
 app.get('/getChars', (req, res) => {
     res.send(characters)
